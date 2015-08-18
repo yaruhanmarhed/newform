@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>netInside</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/base.css">
+<!-- 	<link rel="stylesheet" href="stylesheets/skeleton.css"> -->
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! --> 
+     <header>
+         <img class="logo" src="images/logo-main.png"/>
+         <div class="bars"><i class="fa fa-bars"></i></div>
+         <h2 class="title"><span>Bold</span>  Resposive, Social</h2>
+		 <ul id="nav">
+					<li><a href="">Home</a></li>
+					<li><a href="">OurWorks</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">ContactUs</a></li>
+		</ul>
+		
+
+     </header>
+     <main>
+     	<div class="services">
+            <h2>Services</h2>
+            <div  class="service1">
+            	<img src="images/icon1.fw.png"/>
+            	<h3>Consulting</h3>
+            </div>
+            <div  class="service2">
+            	<img src="images/icon2.fw.png"/>
+            	<h3>Consulting</h3>
+            </div>
+            <div  class="service3">
+            	<img src="images/icon3.fw.png"/>
+            	<h3>Consulting</h3>
+            </div>
+            <div  class="service4">
+            	<img src="images/icon4.fw.png"/>
+            	<h3>Consulting</h3>
+            </div>
+        </div>
+
+
+     </main>
+     <footer>
+
+     </footer>
+     <script type="text/javascript">
+	var bars = document.querySelector(".bars");
+	var nav = document.querySelector("#nav");
+
+	bars.onclick = function(){
+		if(nav.className == ""){
+			nav.className = "show";
+		}else{
+			nav.className = "";
+		}
+	}
+	</script>
+</body>
